@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated exports & recordings
+exports/
+*.wav
+*.mp3
+*.mid
+!assets/samples/**/*.wav
+!assets/samples/**/*.mp3
+
+# Debug / logs / OS
+*.log
+*_dump.txt
+found_rack.txt
+.DS_Store
+Thumbs.db
